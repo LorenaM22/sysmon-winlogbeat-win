@@ -138,7 +138,7 @@ setup.template.settings:
 # ------------------------------ Logstash Output -------------------------------
 output.logstash:
   # The Logstash hosts
-  hosts: ["192.168.100.7:5044"]
+  hosts: ["logstash_ip_addr:logstash_port"]
   ssl.enabled: true
   ssl.certificate_authorities: ["C:/Program Files/winlogbeat/certs/ca.crt.txt"]
   ssl.certificate:  "C:/Program Files/winlogbeat/certs/beat.crt.txt"
